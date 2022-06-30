@@ -1,0 +1,130 @@
+const shelf_Array = [
+    "A1",
+    "A2",
+    "A3",
+    "B1",
+    "B2",
+    "B3",
+    "C1",
+    "C2",
+    "C3",
+    "D1",
+    "D2",
+    "D3",
+    "E1",
+    "E2",
+    "E3",
+    "F1",
+    "F2",
+    "F3",
+];
+
+.a2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+    if (total_days < 0 && total_days > -8) {
+        e.style.color  = "#FF8877";
+    }
+
+
+    border: 2px solid black;
+    border-radius: 9px;
+    border-bottom: 10px solid black;
+
+//////
+
+    for (var i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function () {
+        
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+        } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+
+        
+    });
+}
+
+var panel = document.getElementsByClassName('panel');
+var acc = document.getElementsByClassName('accordion');
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener('click', toggleItem, false);
+}
+function toggleItem() {
+    var panel = this.parentNode.className;
+    for (i = 0; i < panel.length; i++) {
+        panel[i].className = 'accordionItem close';
+    }
+    if (panel == 'accordionItem close') {
+        this.parentNode.className = 'accordionItem open';
+    }
+}
+
+///
+
+
+var acc = document.getElementsByClassName("accordion");
+
+
+for (var i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+        } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+
+        
+    });
+}
+
+
+var panel = document.getElementsByClassName('panel');
+var acc = document.getElementsByClassName('accordion');
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener('click', toggleItem, false);
+}
+function toggleItem() {
+    var panel = this.parentNode.className;
+    for (i = 0; i < panel.length; i++) {
+        panel[i].className = 'accordionItem close';
+    }
+    if (panel == 'accordionItem close') {
+        this.parentNode.className = 'accordionItem open';
+    }
+}
+
+
+
+///
+
+
+
+//
+
+
+var acc = document.getElementsByClassName("accordion");
+
+
+for (var i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+            
+        } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+        
+    });
+}
