@@ -7,22 +7,42 @@
         <title>Document</title>
         <link rel="stylesheet" href="/style.css" />
         <style>
-            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Inconsolata:wght@400;600&display=swap');
             </style>
     </head>
     <body>
-        <img class="backg" src="/images/gradients1.png">
-        <div class="container">
-            <button class="accordion">Shelf A</button>
-            <div class="panel close">
-                <div class="shelf_A">
-                    <div class="a1"></div>
-                    <div class="a2"></div>
-                    <div class="a3"></div>
+
+        <div class="flex-container">
+            
+        <section class="header">
+            
+            <img class="logo" src="/images/mascot.gif">
+            <p class="description">How to use:
+            <br>Colour idicates an item is close to expiration
+            <br>- <span class="blue">Blue</span>: less than 60 days left
+            <br>- <span class="lilac">Lilac</span>: less than 30 days left
+            <br>- <span class="red">Red</span>: less than a week left
+            <br>Expired dates are removed from the list  
+            </p>
+
+        </section>
+
+        <section class="body">
+
+            <div class="container-A">
+                <button class="button">Shelf A</button>
+
+                <div class="panel close">
+                    <div class="shelf_A">
+                        <div class="a1"></div>
+                        <div class="a2"></div>
+                        <div class="a3"></div>
+                    </div>
                 </div>
             </div>
 
-            <button class="accordion">Shelf E</button>
+        <div class="container-E">
+            <button class="button">Shelf E</button>
             <div class="panel close">
                 <div class="shelf_E">
                     <div class="e1"></div>
@@ -30,9 +50,10 @@
                     <div class="e3"></div>
                 </div>
             </div>
+        </div>
 
-
-            <button class="accordion">Shelf F</button>
+        <div class="container-F">
+            <button class="button">Shelf F</button>
             <div class="panel close">
                 <div class="shelf_F">
                     <div class="f1"></div>
@@ -40,8 +61,10 @@
                     <div class="f3"></div>
                 </div>
             </div>
+        </div>
 
-            <button class="accordion">Shelf B</button>
+        <div class="container-B">
+            <button class="button">Shelf B</button>
             <div class="panel close">
                 <div class="shelf_B">
                     <div class="b1"></div>
@@ -49,28 +72,33 @@
                     <div class="b3"></div>
                 </div>
             </div>
-
-
-            <button class="accordion">Shelf C</button>
-            <div class="panel close">
-                <div class="shelf_C">
-                    <div class="c1"></div>
-                    <div class="c2"></div>
-                    <div class="c3"></div>
-                </div>
-            </div>
-
-
-            <button class="accordion">Shelf D</button>
-            <div class="panel close">
-                <div class="shelf_D">
-                    <div class="d1"></div>
-                    <div class="d2"></div>
-                    <div class="d3"></div>
-                </div>
-            </div>
-
         </div>
+
+            <div class="container-C">
+                <button class="button">Shelf C</button>
+                <div class="panel close">
+                    <div class="shelf_C">
+                        <div class="c1"></div>
+                        <div class="c2"></div>
+                        <div class="c3"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-D">
+                <button class="button">Shelf D</button>
+                <div class="panel close">
+                    <div class="shelf_D">
+                        <div class="d1"></div>
+                        <div class="d2"></div>
+                        <div class="d3"></div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
 
         <script src="/script.js"></script>
     </body>
