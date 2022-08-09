@@ -3,6 +3,18 @@ body {
     background-color: #979797;
 }
 
+h1 {
+    color: #000000;
+    font-size: 0.8rem;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-family: "Inconsolata", monospace;
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+
 .flex-container {
     display: flex;
     flex-direction: column;
@@ -10,6 +22,7 @@ body {
     align-items: center;
 }
 
+/* header */
 .header {
     display: flex;
     flex-direction: column;
@@ -31,7 +44,7 @@ body {
     width: 601px;
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .blue {
@@ -46,12 +59,72 @@ body {
     background-color: #ff7171;
 }
 
-.container-A,
-.container-E,
-.container-F,
-.container-B,
-.container-C,
-.container-D {
+/* slider toggle */
+.toggle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 43%;
+    padding: 0;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    height: 75px;
+margin: 0 0 50px 0;
+}
+
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    border-radius: 12px;
+    border: 2px solid black;
+    border-bottom: 6px solid black;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 50px;
+    width: 110px;
+    left: 8px;
+    bottom: 6px;
+    background-color: white;
+    border-radius: 12px;
+    border: 2px solid black;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%23030303' fill-opacity='0.1'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E");
+    background-color: rgb(247, 220, 147);
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 3px #ffffff;
+}
+
+input:checked + .slider:before {
+    transform: translateX(118px);
+}
+
+/* shelfview */
+.container-A, .container-B, .container-C, .container-D, .container-E, .container-F {
     padding: 10px;
     margin-bottom: 10px;
     border: 2px solid black;
@@ -60,38 +133,16 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
-.shelf_A,
-.shelf_E,
-.shelf_F,
-.shelf_B,
-.shelf_C,
-.shelf_D {
+.shelf_A, .shelf_B, .shelf_C, .shelf_D, .shelf_E, .shelf_F {
     margin-top: 10px;
     border: 3px solid rgb(0, 0, 0);
     border-radius: 15px;
     width: 809px;
-    background-image: url(/images/pattern.svg);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%23030303' fill-opacity='0.1'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E");
     background-color: rgb(247, 220, 147);
 }
 
-.a1,
-.a2,
-.a3,
-.e1,
-.e2,
-.e3,
-.f1,
-.f2,
-.f3,
-.b1,
-.b2,
-.b3,
-.c1,
-.c2,
-.c3,
-.d1,
-.d2,
-.d3 {
+.a1, .a2, .a3, .b1, .b2, .b3, .c1, .c2, .c3, .d1, .d2, .d3, .e1, .e2, .e3, .f1, .f2, .f3{
     display: flex;
     margin: 0px;
     padding: 0;
@@ -109,19 +160,7 @@ body {
 
 }
 
-h1 {
-    color: #000000;
-    font-size: 0.8rem;
-}
-
-p {
-    color: rgb(0, 0, 0);
-    font-family: "Inconsolata", monospace;
-    font-size: 0.8rem;
-    font-weight: 800;
-}
-
-/* Style the buttons that are used to open and close the accordion panel */
+/* button for panel */
 .button {
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
@@ -147,7 +186,6 @@ p {
     left: 670px;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active,
 .button:hover {
     background-color: #ccc;
@@ -157,17 +195,51 @@ p {
     content: "\23F6";
 }
 
-/* Style the accordion panel. Note: hidden by default */
-
+/* panel */
 .close {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 2s ease-out;
 }
 
 .open {
     max-height: auto;
-    transition: max-height 0.9s ease-out;
+}
+
+/* productview */
+.productView{
+    display: none;
+}
+
+.container-Product{
+    padding: 0px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 9px;
+    border-bottom: 6px solid black;
+background-color: white;
+}
+
+.newProdDiv{
+    display: flex;
+    margin: 10px;
+    padding: 0px;
+    border-radius: 12px;
+    border: 2px solid black;
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%23030303' fill-opacity='0.1'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E");
+    background-color: rgb(247, 220, 147);
+}
+
+.newProdDiv:nth-child(2n){background-color: rgb(243, 233, 187);}
+
+.newProdH1 {
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 12px;
+    border: 2px solid black;
+    border-bottom: 6px solid black;
+    background-color: #dad8d8;
 }
 
 
@@ -177,6 +249,11 @@ p {
     }
 
     .header {
+        align-items: center;
+        width: 100%;
+    }
+
+    .toggle {
         align-items: center;
         width: 100%;
     }
