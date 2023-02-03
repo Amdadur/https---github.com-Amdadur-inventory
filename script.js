@@ -2,8 +2,8 @@
 //declare shelves, items and expiration dates
 const shelf_A1 = [
     ["Fudge Duo", "20 MAY 23"],
-    ["American Hard Gums", "28 OCT 22", "28 JAN 23", "28 FEB 23"],
-    ["Aniseed Balls", "07 DEC 23", "17 MAY 24", "23 AUG 24", "06 DEC 24"],
+    ["American Hard Gums", "20 FEB 23", "20 OCT 23", "28 FEB 24"],
+    ["Aniseed Balls", "22 JAN 23", "07 DEC 23", "17 MAY 24", "23 AUG 24", "06 DEC 24"],
     ["Black Jacks & Fruit Salad", "28 SEP 22", "28 FEB 23"],
     ["Beer Bottles", "28 MAR 23", "28 JUN 23"],
     ["Bubblegum Bottles", "28 MAY 23", "28 JUL 23"],
@@ -13,7 +13,7 @@ const shelf_A2 = [
     ["Bubblegum Bonbons", "28 DEC 23"],
     ["Candy Necklaces", "04 OCT 23", "28 OCT 23"],
     ["Catherine Wheels", "28 NOV 22", "28 SEP 23", "28 FEB 24"],
-    ["Clotted Cream Fudge", "01 FEB 23", "27 APR 23"],
+    ["Clotted Cream Fudge", "10 FEB 23", "27 APR 23"],
 ];
 
 const shelf_A3 = [
@@ -26,18 +26,16 @@ const shelf_A3 = [
 const shelf_B1 = [
     ["Fried Eggs", "28 FEB 23", "28 SEP 23", "28 MAY 24"],
     ["Fruity Fangs", "28 MAR 23", "28 MAY 23"],
-    ["Fruit Pips", "28 SEP 22", "28 JAN 23"],
-    ["Fruit Pastilles", "28 OCT 22", "28 NOV 22", "28 DEC 22", "28 JAN 23"],
+    ["Fruit Pips", "28 SEP 22", "28 JAN 24"],
+    ["Fruit Pastilles", "28 OCT 22", "28 NOV 22", "28 DEC 22", "25 FEB 23"],
     ["Fruity Meerkats", "28 MAR 23", "28 MAY 23", "28 AUG 23"],
-    ["Fudge Duo", "20 MAY 23"],
-
 ];
 
 const shelf_B2 = [
     ["Giant Strawberries", "28 MAR 23", "28 JUL 23", "28 AUG 23", "28 SEP 23"],
-    ["Gummy Bears", "28 JAN 23", "28 JUN 23", "28 MAY 23"],
+    ["Gummy Bears", "28 MAR 23", "28 JUN 23", "28 MAY 23"],
     ["Jazzies", "28 FEB 23", "28 MAY 23"],
-    ["Jelly Babies (Dusted)", "28 DEC 22"],
+    ["Jelly Babies (Dusted)", "28 DEC 23"],
     ["Jelly Beans", "20 FEB 24"],
     ["Jelly Buttons", "28 OCT 22", "28 FEB 23"],
 ];
@@ -55,10 +53,9 @@ const shelf_C1 = [
     ["Love Hearts", "28 SEP 22", "31 MAR 23", "31 JUL 23"],
     ["Luxury Fruit Jellies", "28 SEP 22", "28 OCT 22", "28 MAR 23"],
     ["Luxury Fruit Chews", "28 OCT 23", "28 JAN 24"],
-    ["Milk Bottles", "28 JAN 23"],
+    ["Milk Bottles", "20 FEB 23"],
     ["Snowies", "28 FEB 23", "28 MAY 23"],
     ["Strawberry Bonbons", "25 MAY 23", "28 DEC 23"],
-
     ["Mini Eggs", "07 OCT 23", "20 OCT 23"],
 ];
 
@@ -66,9 +63,9 @@ const shelf_C2 = [
     ["Mint Imperials", "22 JAN 23", "28 MAR 23"],
     ["Pineapple Chunks", "20 APR 23", "07 MAR 24", "06 APR 24"],
     ["Pear Drops", "22 MAR 23", "28 APR 24", "29 JUN 24"],
-    ["Rum & Raisin Fudge", "02 DEC 22", "01 FEB 23"],
-    ["Sherbet Lemon", "28 JAN 23", "28 MAY 23"],
-    ["Sherbet Strawberries", "28 NOV 22", "28 JAN 23"],
+    ["Rum & Raisin Fudge", "20 FEB 23", "01 OCT 23"],
+    ["Sherbet Lemon", "20 FEB 23", "28 MAY 23"],
+    ["Sherbet Strawberries", "28 NOV 22", "22 FEB 23"],
 ];
 
 const shelf_C3 = [
@@ -82,8 +79,8 @@ const shelf_C3 = [
 ];
 
 const shelf_D1 = [
-    ["ABC's", "28 JAN 23", "30 SEP 23"],
-    ["American Hard Gums", "28 OCT 22", "28 JAN 23", "28 FEB 23"],
+    ["ABC's", "19 FEB 23", "30 SEP 23"],
+    ["American Hard Gums", "20 FEB 23", "28 OCT 23", "28 FEB 24"],
     ["Aniseed Balls", "07 DEC 23", "17 MAY 24", "23 AUG 24", "06 DEC 24"],
     ["Black Jacks & Fruit Salad", "28 SEP 22", "28 FEB 23"],
     ["Beer Bottles", "28 MAR 23", "28 JUN 23"],
@@ -94,7 +91,7 @@ const shelf_D2 = [
     ["Bubblegum Bonbons", "28 DEC 23"],
     ["Candy Necklaces", "04 OCT 23", "28 OCT 23"],
     ["Catherine Wheels", "28 NOV 22", "28 SEP 23", "28 FEB 24"],
-    ["Clotted Cream Fudge", "01 FEB 23", "27 APR 23"],
+    ["Clotted Cream Fudge", "10 FEB 23", "27 APR 23"],
 ];
 
 const shelf_D3 = [
@@ -108,18 +105,17 @@ const shelf_D3 = [
 const shelf_E1 = [
     ["Fried Eggs", "28 FEB 23"],
     ["Fruity Fangs", "28 MAR 23", "28 MAY 23"],
-    ["Fruit Pips", "28 SEP 22", "28 JAN 23"],
-    ["Fruit Pastilles", "28 OCT 22", "28 NOV 22", "28 DEC 22", "28 JAN 23"],
+    ["Fruit Pips", "28 SEP 22", "28 JAN 24"],
+    ["Fruit Pastilles", "28 OCT 22", "28 NOV 22", "28 DEC 22", "25 FEB 23"],
     ["Fruity Meerkats", "28 MAR 23", "28 MAY 23", "28 AUG 23"],
     ["Fudge Duo", "20 MAY 23"],
-
 ];
 
 const shelf_E2 = [
     ["Giant Strawberries", "28 MAR 23", "28 JUL 23", "28 AUG 23", "28 SEP 23"],
-    ["Gummy Bears", "28 JAN 23", "28 JUN 23", "28 MAY 23"],
+    ["Gummy Bears", "28 MAR 23", "28 JUN 23", "28 MAY 23"],
     ["Jazzies", "28 FEB 23", "28 MAY 23"],
-    ["Jelly Babies (Dusted)", "28 DEC 22"],
+    ["Jelly Babies (Dusted)", "28 DEC 23"],
     ["Jelly Beans", "20 FEB 24"],
     ["Jelly Buttons", "28 OCT 22", "28 FEB 23"],
 ];
@@ -137,7 +133,7 @@ const shelf_F1 = [
     ["Love Hearts", "28 SEP 22", "31 MAR 23", "31 JUL 23"],
     ["Luxury Fruit Jellies", "28 SEP 22", "28 OCT 22", "28 MAR 23"],
     ["Luxury Fruit Chews", "28 OCT 23", "28 JAN 24"],
-    ["Milk Bottles", "28 JAN 23"],
+    ["Milk Bottles", "20 FEB 23"],
     ["Milk Choc Raisins", "28 FEB 23"],
     ["Mini Eggs", "07 OCT 23", "20 OCT 23"],
 ];
@@ -147,15 +143,15 @@ const shelf_F2 = [
     ["Pineapple Chunks", "20 APR 23", "07 MAR 24", "06 APR 24"],
     ["Pear Drops", "22 MAR 23", "28 APR 24", "29 JUN 24"],
     ["Rosie Apples", "22 FEB 24", "28 APR 24"],
-    ["Sherbet Lemon", "28 JAN 23", "28 MAY 23"],
-    ["Sherbet Strawberries", "28 NOV 22", "28 JAN 23"],
+    ["Sherbet Lemon", "20 FEB 23", "28 MAY 23"],
+    ["Sherbet Strawberries", "28 NOV 22", "22 FEB 23"],
 ];
 
 const shelf_F3 = [
     ["Strawberry Bonbons", "25 MAY 23", "28 DEC 23"],
     ["Milkshake Bottles", "28 SEP 22", "28 MAY 23", "28 JUN 23"],
     ["Trad Mint Humbugs", "28 APR 23"],
-    ["Toffee Bonbons", "19 AUG 22", "10 JAN 23", "21 APR 23", "28 NOV 24"],
+    ["Toffee Bonbons", "19 AUG 22", "08 JAN 23", "21 APR 23", "28 NOV 24"],
     ["Random Retros", "30 APR 23", "31 MAY 23"],
     ["Yorkshire Mix", "10 APR 24"],
 ];
@@ -207,11 +203,11 @@ function createShelves() {
 
         //work out number of dates to display
         if (shelf_A1[i][4] != undefined) {
-            item.innerHTML = `<h1>${shelf_A1[i][0]}</h1><p class="exp">${shelf_A1[i][1]}</p><p>${shelf_A1[i][2]}</p><p>${shelf_A1[i][3]}</p><p>${shelf_A1[i][4]}</p>`;
+            item.innerHTML = `<h1>${shelf_A1[i][0]}</h1><p class="exp">${shelf_A1[i][1]}</p><p class="exp">${shelf_A1[i][2]}</p><p class="exp">${shelf_A1[i][3]}</p><p class="exp">${shelf_A1[i][4]}</p>`;
         } else if (shelf_A1[i][3] != undefined) {
-            item.innerHTML = `<h1>${shelf_A1[i][0]}</h1><p class="exp">${shelf_A1[i][1]}</p><p>${shelf_A1[i][2]}</p><p>${shelf_A1[i][3]}</p>`;
+            item.innerHTML = `<h1>${shelf_A1[i][0]}</h1><p class="exp">${shelf_A1[i][1]}</p><p class="exp">${shelf_A1[i][2]}</p><p class="exp">${shelf_A1[i][3]}</p>`;
         } else if (shelf_A1[i][2] != undefined) {
-            item.innerHTML = `<h1>${shelf_A1[i][0]}</h1><p class="exp">${shelf_A1[i][1]}</p><p>${shelf_A1[i][2]}</p>`;
+            item.innerHTML = `<h1>${shelf_A1[i][0]}</h1><p class="exp">${shelf_A1[i][1]}</p><p class="exp">${shelf_A1[i][2]}</p>`;
         } else {
             item.innerHTML = `<h1>${shelf_A1[i][0]}</h1><p class="exp">${shelf_A1[i][1]}</p>`;
         }
@@ -223,11 +219,11 @@ function createShelves() {
         item.setAttribute("class", "newDiv");
 
         if (shelf_A2[i][4] != undefined) {
-            item.innerHTML = `<h1>${shelf_A2[i][0]}</h1><p class="exp">${shelf_A2[i][1]}</p><p>${shelf_A2[i][2]}</p><p>${shelf_A2[i][3]}</p><p>${shelf_A2[i][4]}</p>`;
+            item.innerHTML = `<h1>${shelf_A2[i][0]}</h1><p class="exp">${shelf_A2[i][1]}</p><p class="exp">${shelf_A2[i][2]}</p><p class="exp">${shelf_A2[i][3]}</p><p class="exp">${shelf_A2[i][4]}</p>`;
         } else if (shelf_A2[i][3] != undefined) {
-            item.innerHTML = `<h1>${shelf_A2[i][0]}</h1><p class="exp">${shelf_A2[i][1]}</p><p>${shelf_A2[i][2]}</p><p>${shelf_A2[i][3]}</p>`;
+            item.innerHTML = `<h1>${shelf_A2[i][0]}</h1><p class="exp">${shelf_A2[i][1]}</p><p class="exp">${shelf_A2[i][2]}</p><p class="exp">${shelf_A2[i][3]}</p>`;
         } else if (shelf_A2[i][2] != undefined) {
-            item.innerHTML = `<h1>${shelf_A2[i][0]}</h1><p class="exp">${shelf_A2[i][1]}</p><p>${shelf_A2[i][2]}</p>`;
+            item.innerHTML = `<h1>${shelf_A2[i][0]}</h1><p class="exp">${shelf_A2[i][1]}</p><p class="exp">${shelf_A2[i][2]}</p>`;
         } else {
             item.innerHTML = `<h1>${shelf_A2[i][0]}</h1><p class="exp">${shelf_A2[i][1]}</p>`;
         }
@@ -239,11 +235,11 @@ function createShelves() {
         item.setAttribute("class", "newDiv");
 
         if (shelf_A3[i][4] != undefined) {
-            item.innerHTML = `<h1>${shelf_A3[i][0]}</h1><p class="exp">${shelf_A3[i][1]}</p><p>${shelf_A3[i][2]}</p><p>${shelf_A3[i][3]}</p><p>${shelf_A3[i][4]}</p>`;
+            item.innerHTML = `<h1>${shelf_A3[i][0]}</h1><p class="exp">${shelf_A3[i][1]}</p><p class="exp">${shelf_A3[i][2]}</p><p class="exp">${shelf_A3[i][3]}</p><p class="exp">${shelf_A3[i][4]}</p>`;
         } else if (shelf_A3[i][3] != undefined) {
-            item.innerHTML = `<h1>${shelf_A3[i][0]}</h1><p class="exp">${shelf_A3[i][1]}</p><p>${shelf_A3[i][2]}</p><p>${shelf_A3[i][3]}</p>`;
+            item.innerHTML = `<h1>${shelf_A3[i][0]}</h1><p class="exp">${shelf_A3[i][1]}</p><p class="exp">${shelf_A3[i][2]}</p><p class="exp">${shelf_A3[i][3]}</p>`;
         } else if (shelf_A3[i][2] != undefined) {
-            item.innerHTML = `<h1>${shelf_A3[i][0]}</h1><p class="exp">${shelf_A3[i][1]}</p><p>${shelf_A3[i][2]}</p>`;
+            item.innerHTML = `<h1>${shelf_A3[i][0]}</h1><p class="exp">${shelf_A3[i][1]}</p><p class="exp">${shelf_A3[i][2]}</p>`;
         } else {
             item.innerHTML = `<h1>${shelf_A3[i][0]}</h1><p class="exp">${shelf_A3[i][1]}</p>`;
         }
@@ -255,11 +251,11 @@ function createShelves() {
         item.setAttribute("class", "newDiv");
 
         if (shelf_B1[i][4] != undefined) {
-            item.innerHTML = `<h1>${shelf_B1[i][0]}</h1><p class="exp">${shelf_B1[i][1]}</p><p>${shelf_B1[i][2]}</p><p>${shelf_B1[i][3]}</p><p>${shelf_B1[i][4]}</p>`;
+            item.innerHTML = `<h1>${shelf_B1[i][0]}</h1><p class="exp">${shelf_B1[i][1]}</p><p class="exp">${shelf_B1[i][2]}</p><p class="exp">${shelf_B1[i][3]}</p><p>${shelf_B1[i][4]}</p>`;
         } else if (shelf_B1[i][3] != undefined) {
-            item.innerHTML = `<h1>${shelf_B1[i][0]}</h1><p class="exp">${shelf_B1[i][1]}</p><p>${shelf_B1[i][2]}</p><p>${shelf_B1[i][3]}</p>`;
+            item.innerHTML = `<h1>${shelf_B1[i][0]}</h1><p class="exp">${shelf_B1[i][1]}</p><p class="exp">${shelf_B1[i][2]}</p><p class="exp">${shelf_B1[i][3]}</p>`;
         } else if (shelf_B1[i][2] != undefined) {
-            item.innerHTML = `<h1>${shelf_B1[i][0]}</h1><p class="exp">${shelf_B1[i][1]}</p><p>${shelf_B1[i][2]}</p>`;
+            item.innerHTML = `<h1>${shelf_B1[i][0]}</h1><p class="exp">${shelf_B1[i][1]}</p><p class="exp">${shelf_B1[i][2]}</p>`;
         } else {
             item.innerHTML = `<h1>${shelf_B1[i][0]}</h1><p class="exp">${shelf_B1[i][1]}</p>`;
         }
@@ -271,11 +267,11 @@ function createShelves() {
         item.setAttribute("class", "newDiv");
 
         if (shelf_B2[i][4] != undefined) {
-            item.innerHTML = `<h1>${shelf_B2[i][0]}</h1><p class="exp">${shelf_B2[i][1]}</p><p>${shelf_B2[i][2]}</p><p>${shelf_B2[i][3]}</p><p>${shelf_B2[i][4]}</p>`;
+            item.innerHTML = `<h1>${shelf_B2[i][0]}</h1><p class="exp">${shelf_B2[i][1]}</p><p class="exp">${shelf_B2[i][2]}</p><p class="exp">${shelf_B2[i][3]}</p><p class="exp">${shelf_B2[i][4]}</p>`;
         } else if (shelf_B2[i][3] != undefined) {
-            item.innerHTML = `<h1>${shelf_B2[i][0]}</h1><p class="exp">${shelf_B2[i][1]}</p><p>${shelf_B2[i][2]}</p><p>${shelf_B2[i][3]}</p>`;
+            item.innerHTML = `<h1>${shelf_B2[i][0]}</h1><p class="exp">${shelf_B2[i][1]}</p><p class="exp">${shelf_B2[i][2]}</p><p class="exp">${shelf_B2[i][3]}</p>`;
         } else if (shelf_B2[i][2] != undefined) {
-            item.innerHTML = `<h1>${shelf_B2[i][0]}</h1><p class="exp">${shelf_B2[i][1]}</p><p>${shelf_B2[i][2]}</p>`;
+            item.innerHTML = `<h1>${shelf_B2[i][0]}</h1><p class="exp">${shelf_B2[i][1]}</p><p class="exp">${shelf_B2[i][2]}</p>`;
         } else {
             item.innerHTML = `<h1>${shelf_B2[i][0]}</h1><p class="exp">${shelf_B2[i][1]}</p>`;
         }
@@ -287,11 +283,11 @@ function createShelves() {
         item.setAttribute("class", "newDiv");
 
         if (shelf_B3[i][4] != undefined) {
-            item.innerHTML = `<h1>${shelf_B3[i][0]}</h1><p class="exp">${shelf_B3[i][1]}</p><p>${shelf_B3[i][2]}</p><p>${shelf_B3[i][3]}</p><p>${shelf_B3[i][4]}</p>`;
+            item.innerHTML = `<h1>${shelf_B3[i][0]}</h1><p class="exp">${shelf_B3[i][1]}</p><p class="exp">${shelf_B3[i][2]}</p><p class="exp">${shelf_B3[i][3]}</p><p class="exp">${shelf_B3[i][4]}</p>`;
         } else if (shelf_B3[i][3] != undefined) {
-            item.innerHTML = `<h1>${shelf_B3[i][0]}</h1><p class="exp">${shelf_B3[i][1]}</p><p>${shelf_B3[i][2]}</p><p>${shelf_B3[i][3]}</p>`;
+            item.innerHTML = `<h1>${shelf_B3[i][0]}</h1><p class="exp">${shelf_B3[i][1]}</p><p class="exp">${shelf_B3[i][2]}</p><p class="exp">${shelf_B3[i][3]}</p>`;
         } else if (shelf_B3[i][2] != undefined) {
-            item.innerHTML = `<h1>${shelf_B3[i][0]}</h1><p class="exp">${shelf_B3[i][1]}</p><p>${shelf_B3[i][2]}</p>`;
+            item.innerHTML = `<h1>${shelf_B3[i][0]}</h1><p class="exp">${shelf_B3[i][1]}</p><p class="exp">${shelf_B3[i][2]}</p>`;
         } else {
             item.innerHTML = `<h1>${shelf_B3[i][0]}</h1><p class="exp">${shelf_B3[i][1]}</p>`;
         }
@@ -303,11 +299,11 @@ function createShelves() {
         item.setAttribute("class", "newDiv");
 
         if (shelf_C1[i][4] != undefined) {
-            item.innerHTML = `<h1>${shelf_C1[i][0]}</h1><p class="exp">${shelf_C1[i][1]}</p><p>${shelf_C1[i][2]}</p><p>${shelf_C1[i][3]}</p><p>${shelf_C1[i][4]}</p>`;
+            item.innerHTML = `<h1>${shelf_C1[i][0]}</h1><p class="exp">${shelf_C1[i][1]}</p><p class="exp">${shelf_C1[i][2]}</p><p class="exp">${shelf_C1[i][3]}</p><p class="exp">${shelf_C1[i][4]}</p>`;
         } else if (shelf_C1[i][3] != undefined) {
-            item.innerHTML = `<h1>${shelf_C1[i][0]}</h1><p class="exp">${shelf_C1[i][1]}</p><p>${shelf_C1[i][2]}</p><p>${shelf_C1[i][3]}</p>`;
+            item.innerHTML = `<h1>${shelf_C1[i][0]}</h1><p class="exp">${shelf_C1[i][1]}</p><p class="exp">${shelf_C1[i][2]}</p><p class="exp">${shelf_C1[i][3]}</p>`;
         } else if (shelf_C1[i][2] != undefined) {
-            item.innerHTML = `<h1>${shelf_C1[i][0]}</h1><p class="exp">${shelf_C1[i][1]}</p><p>${shelf_C1[i][2]}</p>`;
+            item.innerHTML = `<h1>${shelf_C1[i][0]}</h1><p class="exp">${shelf_C1[i][1]}</p><p class="exp">${shelf_C1[i][2]}</p>`;
         } else {
             item.innerHTML = `<h1>${shelf_C1[i][0]}</h1><p class="exp">${shelf_C1[i][1]}</p>`;
         }
@@ -319,11 +315,11 @@ function createShelves() {
         item.setAttribute("class", "newDiv");
 
         if (shelf_C2[i][4] != undefined) {
-            item.innerHTML = `<h1>${shelf_C2[i][0]}</h1><p class="exp">${shelf_C2[i][1]}</p><p>${shelf_C2[i][2]}</p><p>${shelf_C2[i][3]}</p><p>${shelf_C2[i][4]}</p>`;
+            item.innerHTML = `<h1>${shelf_C2[i][0]}</h1><p class="exp">${shelf_C2[i][1]}</p><p class="exp">${shelf_C2[i][2]}</p><p class="exp">${shelf_C2[i][3]}</p><p class="exp">${shelf_C2[i][4]}</p>`;
         } else if (shelf_C2[i][3] != undefined) {
-            item.innerHTML = `<h1>${shelf_C2[i][0]}</h1><p class="exp">${shelf_C2[i][1]}</p><p>${shelf_C2[i][2]}</p><p>${shelf_C2[i][3]}</p>`;
-        } else if (shelf_C2[i][2] != undefined) {
-            item.innerHTML = `<h1>${shelf_C2[i][0]}</h1><p class="exp">${shelf_C2[i][1]}</p><p>${shelf_C2[i][2]}</p>`;
+            item.innerHTML = `<h1>${shelf_C2[i][0]}</h1><p class="exp">${shelf_C2[i][1]}</p><p class="exp">${shelf_C2[i][2]}</p><p class="exp">${shelf_C2[i][3]}</p>`;
+        } else if (shelf_C2[i][2] != undefined) { 
+            item.innerHTML = `<h1>${shelf_C2[i][0]}</h1><p class="exp">${shelf_C2[i][1]}</p><p class="exp">${shelf_C2[i][2]}</p>`;
         } else {
             item.innerHTML = `<h1>${shelf_C2[i][0]}</h1><p class="exp">${shelf_C2[i][1]}</p>`;
         }
@@ -335,11 +331,11 @@ function createShelves() {
         item.setAttribute("class", "newDiv");
 
         if (shelf_C3[i][4] != undefined) {
-            item.innerHTML = `<h1>${shelf_C3[i][0]}</h1><p class="exp">${shelf_C3[i][1]}</p><p>${shelf_C3[i][2]}</p><p>${shelf_C3[i][3]}</p><p>${shelf_C3[i][4]}</p>`;
+            item.innerHTML = `<h1>${shelf_C3[i][0]}</h1><p class="exp">${shelf_C3[i][1]}</p><p class="exp">${shelf_C3[i][2]}</p><p class="exp">${shelf_C3[i][3]}</p><p class="exp">${shelf_C3[i][4]}</p>`;
         } else if (shelf_C3[i][3] != undefined) {
-            item.innerHTML = `<h1>${shelf_C3[i][0]}</h1><p class="exp">${shelf_C3[i][1]}</p><p>${shelf_C3[i][2]}</p><p>${shelf_C3[i][3]}</p>`;
+            item.innerHTML = `<h1>${shelf_C3[i][0]}</h1><p class="exp">${shelf_C3[i][1]}</p><p class="exp">${shelf_C3[i][2]}</p><p class="exp">${shelf_C3[i][3]}</p>`;
         } else if (shelf_C3[i][2] != undefined) {
-            item.innerHTML = `<h1>${shelf_C3[i][0]}</h1><p class="exp">${shelf_C3[i][1]}</p><p>${shelf_C3[i][2]}</p>`;
+            item.innerHTML = `<h1>${shelf_C3[i][0]}</h1><p class="exp">${shelf_C3[i][1]}</p><p class="exp">${shelf_C3[i][2]}</p>`;
         } else {
             item.innerHTML = `<h1>${shelf_C3[i][0]}</h1><p class="exp">${shelf_C3[i][1]}</p>`;
         }
@@ -351,11 +347,11 @@ function createShelves() {
         item.setAttribute("class", "newDiv");
 
         if (shelf_D1[i][4] != undefined) {
-            item.innerHTML = `<h1>${shelf_D1[i][0]}</h1><p class="exp">${shelf_D1[i][1]}</p><p>${shelf_D1[i][2]}</p><p>${shelf_D1[i][3]}</p><p>${shelf_D1[i][4]}</p>`;
+            item.innerHTML = `<h1>${shelf_D1[i][0]}</h1><p class="exp">${shelf_D1[i][1]}</p><p class="exp">${shelf_D1[i][2]}</p><p class="exp">${shelf_D1[i][3]}</p><p class="exp">${shelf_D1[i][4]}</p>`;
         } else if (shelf_D1[i][3] != undefined) {
-            item.innerHTML = `<h1>${shelf_D1[i][0]}</h1><p class="exp">${shelf_D1[i][1]}</p><p>${shelf_D1[i][2]}</p><p>${shelf_D1[i][3]}</p>`;
+            item.innerHTML = `<h1>${shelf_D1[i][0]}</h1><p class="exp">${shelf_D1[i][1]}</p><p class="exp">${shelf_D1[i][2]}</p><p class="exp">${shelf_D1[i][3]}</p>`;
         } else if (shelf_D1[i][2] != undefined) {
-            item.innerHTML = `<h1>${shelf_D1[i][0]}</h1><p class="exp">${shelf_D1[i][1]}</p><p>${shelf_D1[i][2]}</p>`;
+            item.innerHTML = `<h1>${shelf_D1[i][0]}</h1><p class="exp">${shelf_D1[i][1]}</p><p class="exp">${shelf_D1[i][2]}</p>`;
         } else {
             item.innerHTML = `<h1>${shelf_D1[i][0]}</h1><p class="exp">${shelf_D1[i][1]}</p>`;
         }
@@ -367,11 +363,11 @@ function createShelves() {
         item.setAttribute("class", "newDiv");
 
         if (shelf_D2[i][4] != undefined) {
-            item.innerHTML = `<h1>${shelf_D2[i][0]}</h1><p class="exp">${shelf_D2[i][1]}</p><p>${shelf_D2[i][2]}</p><p>${shelf_D2[i][3]}</p><p>${shelf_D2[i][4]}</p>`;
+            item.innerHTML = `<h1>${shelf_D2[i][0]}</h1><p class="exp">${shelf_D2[i][1]}</p><p class="exp">${shelf_D2[i][2]}</p><p class="exp">${shelf_D2[i][3]}</p><p class="exp">${shelf_D2[i][4]}</p>`;
         } else if (shelf_D2[i][3] != undefined) {
-            item.innerHTML = `<h1>${shelf_D2[i][0]}</h1><p class="exp">${shelf_D2[i][1]}</p><p>${shelf_D2[i][2]}</p><p>${shelf_D2[i][3]}</p>`;
+            item.innerHTML = `<h1>${shelf_D2[i][0]}</h1><p class="exp">${shelf_D2[i][1]}</p><p class="exp">${shelf_D2[i][2]}</p><p class="exp">${shelf_D2[i][3]}</p>`;
         } else if (shelf_D2[i][2] != undefined) {
-            item.innerHTML = `<h1>${shelf_D2[i][0]}</h1><p class="exp">${shelf_D2[i][1]}</p><p>${shelf_D2[i][2]}</p>`;
+            item.innerHTML = `<h1>${shelf_D2[i][0]}</h1><p class="exp">${shelf_D2[i][1]}</p><p class="exp">${shelf_D2[i][2]}</p>`;
         } else {
             item.innerHTML = `<h1>${shelf_D2[i][0]}</h1><p class="exp">${shelf_D2[i][1]}</p>`;
         }
@@ -383,11 +379,11 @@ function createShelves() {
         item.setAttribute("class", "newDiv");
 
         if (shelf_D3[i][4] != undefined) {
-            item.innerHTML = `<h1>${shelf_D3[i][0]}</h1><p class="exp">${shelf_D3[i][1]}</p><p>${shelf_D3[i][2]}</p><p>${shelf_D3[i][3]}</p><p>${shelf_D3[i][4]}</p>`;
+            item.innerHTML = `<h1>${shelf_D3[i][0]}</h1><p class="exp">${shelf_D3[i][1]}</p><p class="exp">${shelf_D3[i][2]}</p><p class="exp">${shelf_D3[i][3]}</p><p class="exp">${shelf_D3[i][4]}</p>`;
         } else if (shelf_D3[i][3] != undefined) {
-            item.innerHTML = `<h1>${shelf_D3[i][0]}</h1><p class="exp">${shelf_D3[i][1]}</p><p>${shelf_D3[i][2]}</p><p>${shelf_D3[i][3]}</p>`;
+            item.innerHTML = `<h1>${shelf_D3[i][0]}</h1><p class="exp">${shelf_D3[i][1]}</p><p class="exp">${shelf_D3[i][2]}</p><p class="exp">${shelf_D3[i][3]}</p>`;
         } else if (shelf_D3[i][2] != undefined) {
-            item.innerHTML = `<h1>${shelf_D3[i][0]}</h1><p class="exp">${shelf_D3[i][1]}</p><p>${shelf_D3[i][2]}</p>`;
+            item.innerHTML = `<h1>${shelf_D3[i][0]}</h1><p class="exp">${shelf_D3[i][1]}</p><p class="exp">${shelf_D3[i][2]}</p>`;
         } else {
             item.innerHTML = `<h1>${shelf_D3[i][0]}</h1><p class="exp">${shelf_D3[i][1]}</p>`;
         }
@@ -400,11 +396,11 @@ function createShelves() {
         item.setAttribute("class", "newDiv");
 
         if (shelf_E1[i][4] != undefined) {
-            item.innerHTML = `<h1>${shelf_E1[i][0]}</h1><p class="exp">${shelf_E1[i][1]}</p><p>${shelf_E1[i][2]}</p><p>${shelf_E1[i][3]}</p><p>${shelf_E1[i][4]}</p>`;
+            item.innerHTML = `<h1>${shelf_E1[i][0]}</h1><p class="exp">${shelf_E1[i][1]}</p><p class="exp">${shelf_E1[i][2]}</p><p class="exp">${shelf_E1[i][3]}</p><p class="exp">${shelf_E1[i][4]}</p>`;
         } else if (shelf_E1[i][3] != undefined) {
-            item.innerHTML = `<h1>${shelf_E1[i][0]}</h1><p class="exp">${shelf_E1[i][1]}</p><p>${shelf_E1[i][2]}</p><p>${shelf_E1[i][3]}</p>`;
+            item.innerHTML = `<h1>${shelf_E1[i][0]}</h1><p class="exp">${shelf_E1[i][1]}</p><p class="exp">${shelf_E1[i][2]}</p><p class="exp">${shelf_E1[i][3]}</p>`;
         } else if (shelf_E1[i][2] != undefined) {
-            item.innerHTML = `<h1>${shelf_E1[i][0]}</h1><p class="exp">${shelf_E1[i][1]}</p><p>${shelf_E1[i][2]}</p>`;
+            item.innerHTML = `<h1>${shelf_E1[i][0]}</h1><p class="exp">${shelf_E1[i][1]}</p><p class="exp">${shelf_E1[i][2]}</p>`;
         } else {
             item.innerHTML = `<h1>${shelf_E1[i][0]}</h1><p class="exp">${shelf_E1[i][1]}</p>`;
         }
@@ -416,11 +412,11 @@ function createShelves() {
         item.setAttribute("class", "newDiv");
 
         if (shelf_E2[i][4] != undefined) {
-            item.innerHTML = `<h1>${shelf_E2[i][0]}</h1><p class="exp">${shelf_E2[i][1]}</p><p>${shelf_E2[i][2]}</p><p>${shelf_E2[i][3]}</p><p>${shelf_E2[i][4]}</p>`;
+            item.innerHTML = `<h1>${shelf_E2[i][0]}</h1><p class="exp">${shelf_E2[i][1]}</p><p class="exp">${shelf_E2[i][2]}</p><p class="exp">${shelf_E2[i][3]}</p><p class="exp">${shelf_E2[i][4]}</p>`;
         } else if (shelf_E2[i][3] != undefined) {
-            item.innerHTML = `<h1>${shelf_E2[i][0]}</h1><p class="exp">${shelf_E2[i][1]}</p><p>${shelf_E2[i][2]}</p><p>${shelf_E2[i][3]}</p>`;
+            item.innerHTML = `<h1>${shelf_E2[i][0]}</h1><p class="exp">${shelf_E2[i][1]}</p><p class="exp">${shelf_E2[i][2]}</p><p class="exp">${shelf_E2[i][3]}</p>`;
         } else if (shelf_E2[i][2] != undefined) {
-            item.innerHTML = `<h1>${shelf_E2[i][0]}</h1><p class="exp">${shelf_E2[i][1]}</p><p>${shelf_E2[i][2]}</p>`;
+            item.innerHTML = `<h1>${shelf_E2[i][0]}</h1><p class="exp">${shelf_E2[i][1]}</p><p class="exp">${shelf_E2[i][2]}</p>`;
         } else {
             item.innerHTML = `<h1>${shelf_E2[i][0]}</h1><p class="exp">${shelf_E2[i][1]}</p>`;
         }
@@ -432,11 +428,11 @@ function createShelves() {
         item.setAttribute("class", "newDiv");
 
         if (shelf_E3[i][4] != undefined) {
-            item.innerHTML = `<h1>${shelf_E3[i][0]}</h1><p class="exp">${shelf_E3[i][1]}</p><p>${shelf_E3[i][2]}</p><p>${shelf_E3[i][3]}</p><p>${shelf_E3[i][4]}</p>`;
+            item.innerHTML = `<h1>${shelf_E3[i][0]}</h1><p class="exp">${shelf_E3[i][1]}</p><p class="exp">${shelf_E3[i][2]}</p><p class="exp">${shelf_E3[i][3]}</p><p class="exp">${shelf_E3[i][4]}</p>`;
         } else if (shelf_E3[i][3] != undefined) {
-            item.innerHTML = `<h1>${shelf_E3[i][0]}</h1><p class="exp">${shelf_E3[i][1]}</p><p>${shelf_E3[i][2]}</p><p>${shelf_E3[i][3]}</p>`;
+            item.innerHTML = `<h1>${shelf_E3[i][0]}</h1><p class="exp">${shelf_E3[i][1]}</p><p class="exp">${shelf_E3[i][2]}</p><p class="exp">${shelf_E3[i][3]}</p>`;
         } else if (shelf_E3[i][2] != undefined) {
-            item.innerHTML = `<h1>${shelf_E3[i][0]}</h1><p class="exp">${shelf_E3[i][1]}</p><p>${shelf_E3[i][2]}</p>`;
+            item.innerHTML = `<h1>${shelf_E3[i][0]}</h1><p class="exp">${shelf_E3[i][1]}</p><p class="exp">${shelf_E3[i][2]}</p>`;
         } else {
             item.innerHTML = `<h1>${shelf_E3[i][0]}</h1><p class="exp">${shelf_E3[i][1]}</p>`;
         }
@@ -448,11 +444,11 @@ function createShelves() {
         item.setAttribute("class", "newDiv");
 
         if (shelf_F1[i][4] != undefined) {
-            item.innerHTML = `<h1>${shelf_F1[i][0]}</h1><p class="exp">${shelf_F1[i][1]}</p><p>${shelf_F1[i][2]}</p><p>${shelf_F1[i][3]}</p><p>${shelf_F1[i][4]}</p>`;
+            item.innerHTML = `<h1>${shelf_F1[i][0]}</h1><p class="exp">${shelf_F1[i][1]}</p><p class="exp">${shelf_F1[i][2]}</p><p class="exp">${shelf_F1[i][3]}</p><p class="exp">${shelf_F1[i][4]}</p>`;
         } else if (shelf_F1[i][3] != undefined) {
-        item.innerHTML = `<h1>${shelf_F1[i][0]}</h1><p class="exp">${shelf_F1[i][1]}</p><p>${shelf_F1[i][2]}</p><p>${shelf_F1[i][3]}</p>`;
+            item.innerHTML = `<h1>${shelf_F1[i][0]}</h1><p class="exp">${shelf_F1[i][1]}</p><p class="exp">${shelf_F1[i][2]}</p><p class="exp">${shelf_F1[i][3]}</p>`;
         } else if (shelf_F1[i][2] != undefined) {
-            item.innerHTML = `<h1>${shelf_F1[i][0]}</h1><p class="exp">${shelf_F1[i][1]}</p><p>${shelf_F1[i][2]}</p>`;
+            item.innerHTML = `<h1>${shelf_F1[i][0]}</h1><p class="exp">${shelf_F1[i][1]}</p><p class="exp">${shelf_F1[i][2]}</p>`;
         } else {
             item.innerHTML = `<h1>${shelf_F1[i][0]}</h1><p class="exp">${shelf_F1[i][1]}</p>`;
         }
@@ -464,11 +460,11 @@ function createShelves() {
         item.setAttribute("class", "newDiv");
 
         if (shelf_F2[i][4] != undefined) {
-            item.innerHTML = `<h1>${shelf_F2[i][0]}</h1><p class="exp">${shelf_F2[i][1]}</p><p>${shelf_F2[i][2]}</p><p>${shelf_F2[i][3]}</p><p>${shelf_F2[i][4]}</p>`;
+            item.innerHTML = `<h1>${shelf_F2[i][0]}</h1><p class="exp">${shelf_F2[i][1]}</p><p class="exp">${shelf_F2[i][2]}</p><p class="exp">${shelf_F2[i][3]}</p><p class="exp">${shelf_F2[i][4]}</p>`;
         } else if (shelf_F2[i][3] != undefined) {
-            item.innerHTML = `<h1>${shelf_F2[i][0]}</h1><p class="exp">${shelf_F2[i][1]}</p><p>${shelf_F2[i][2]}</p><p>${shelf_F2[i][3]}</p>`;
+            item.innerHTML = `<h1>${shelf_F2[i][0]}</h1><p class="exp">${shelf_F2[i][1]}</p><p class="exp">${shelf_F2[i][2]}</p><p class="exp">${shelf_F2[i][3]}</p>`;
         } else if (shelf_F2[i][2] != undefined) {
-            item.innerHTML = `<h1>${shelf_F2[i][0]}</h1><p class="exp">${shelf_F2[i][1]}</p><p>${shelf_F2[i][2]}</p>`;
+            item.innerHTML = `<h1>${shelf_F2[i][0]}</h1><p class="exp">${shelf_F2[i][1]}</p><p class="exp">${shelf_F2[i][2]}</p>`;
         } else {
             item.innerHTML = `<h1>${shelf_F2[i][0]}</h1><p class="exp">${shelf_F2[i][1]}</p>`;
         }
@@ -480,11 +476,11 @@ function createShelves() {
         item.setAttribute("class", "newDiv");
 
         if (shelf_F3[i][4] != undefined) {
-            item.innerHTML = `<h1>${shelf_F3[i][0]}</h1><p class="exp">${shelf_F3[i][1]}</p><p>${shelf_F3[i][2]}</p><p>${shelf_F3[i][3]}</p><p>${shelf_F3[i][4]}</p>`;
+            item.innerHTML = `<h1>${shelf_F3[i][0]}</h1><p class="exp">${shelf_F3[i][1]}</p><p class="exp">${shelf_F3[i][2]}</p><p class="exp">${shelf_F3[i][3]}</p><p class="exp">${shelf_F3[i][4]}</p>`;
         } else if (shelf_F3[i][3] != undefined) {
-            item.innerHTML = `<h1>${shelf_F3[i][0]}</h1><p class="exp">${shelf_F3[i][1]}</p><p>${shelf_F3[i][2]}</p><p>${shelf_F3[i][3]}</p>`;
+            item.innerHTML = `<h1>${shelf_F3[i][0]}</h1><p class="exp">${shelf_F3[i][1]}</p><p class="exp">${shelf_F3[i][2]}</p><p class="exp">${shelf_F3[i][3]}</p>`;
         } else if (shelf_F3[i][2] != undefined) {
-            item.innerHTML = `<h1>${shelf_F3[i][0]}</h1><p class="exp">${shelf_F3[i][1]}</p><p>${shelf_F3[i][2]}</p>`;
+            item.innerHTML = `<h1>${shelf_F3[i][0]}</h1><p class="exp">${shelf_F3[i][1]}</p><p class="exp">${shelf_F3[i][2]}</p>`;
         } else {
             item.innerHTML = `<h1>${shelf_F3[i][0]}</h1><p class="exp">${shelf_F3[i][1]}</p>`;
         }
@@ -534,7 +530,7 @@ function createProductList(){
 
             for (var j = 1; j < productList[i].length; j++){
                 var eachDate = document.createElement("div");
-                eachDate.setAttribute("class", "newDiv");
+                eachDate.setAttribute("class", "newDiv pl");
                 eachDate.innerHTML = `<p class="exp">${productList[i][j]}</p>`
                 eachDiv.appendChild(eachDate);
         }
@@ -652,7 +648,16 @@ function calculate(e){
     //hide expired dates 
     if (total_days < 0) {
         e.style.display = "none";
-    
+
+        //ShelfView - remove product without dates
+        const children = [...e.parentElement.children]
+        if(children.slice(1).every(el=>el.style.display==="none")){
+            e.parentElement.style.display="none";
+        }
+        
+        //ProductList - remove empty date divs
+        if (e.parentElement.classList.contains("pl")){
+        e.parentElement.style.display="none";}
     }
 
     //change color of parent div based on total days
@@ -770,6 +775,26 @@ function toggleItem() {
     }
 }
 
+const header = document.querySelector(".headeropen")
+const howto = document.querySelector(".howto")
+const button0 = document.querySelector(".button0")
+
+button0.addEventListener("click", toggleMenu);
+
+function toggleMenu() {
+    if(button0.className == "button0"){
+    button0.classList.toggle("active");
+    howto.style.display = "none";
+    header.className = "headerclose"
+}
+    else{
+        button0.classList.remove("active");
+        howto.style.display = "block";
+        header.className = "headeropen"
+    }
+}
+
+
 
 
 //SLIDER
@@ -786,4 +811,37 @@ function toggleItem1() {
         prodv.style.display ="block";
         shelfv.style.display ="none";
     }
+}
+
+//RESPONSIVE
+//image change to mobile 
+var viewportWidth= window.innerWidth;
+if (viewportWidth <= 844){
+    howto.src = "/images/howto_m.gif";
+    howto.className = "howtoM";
+}
+
+
+window.onresize = resize;
+function resize(){
+
+var viewportWidth= window.innerWidth;
+if (viewportWidth <= 844){
+    howto.src = "/images/howto_m.gif";
+    howto.className = "howtoM";
+
+    if (header.className == "headerclose"){
+        header.className = "headeropen"
+        howto.style.display = "block";
+        button0.classList.remove("active");
+    }
+
+}
+
+//image change to desktop+tablet 
+if (viewportWidth > 844){
+    howto.src = "/images/howto.gif";
+howto.className = "howto";
+}
+
 }
