@@ -1,158 +1,158 @@
 //DATA
 //declare shelves, items and expiration dates
 const shelf_A1 = [
-    ["Fudge Duo", "20 MAY 23"],
-    ["American Hard Gums", "20 FEB 23", "20 OCT 23", "28 FEB 24"],
-    ["Aniseed Balls", "22 JAN 23", "07 DEC 23", "17 MAY 24", "23 AUG 24", "06 DEC 24"],
-    ["Black Jacks & Fruit Salad", "28 SEP 22", "28 FEB 23"],
-    ["Beer Bottles", "28 MAR 23", "28 JUN 23"],
-    ["Bubblegum Bottles", "28 MAY 23", "28 JUL 23"],
+    ["Fudge Duo", "20 MAY 24", "18 JUL 24"],
+    ["American Hard Gums", "20 FEB 24", "20 OCT 24", "28 FEB 24"],
+    ["Aniseed Balls", "25 JAN 24", "07 DEC 24", "17 MAY 24", "24 AUG 24", "06 DEC 24"],
+    ["Black Jacks & Fruit Salad", "28 SEP 25", "28 FEB 24"],
+    ["Beer Bottles", "28 MAR 24", "28 JUN 24"],
+    ["Bubblegum Bottles", "28 MAY 24", "28 JUL 24"],
 ];
 
 const shelf_A2 = [
-    ["Bubblegum Bonbons", "28 DEC 23"],
-    ["Candy Necklaces", "04 OCT 23", "28 OCT 23"],
-    ["Catherine Wheels", "28 NOV 22", "28 SEP 23", "28 FEB 24"],
-    ["Clotted Cream Fudge", "10 FEB 23", "27 APR 23"],
+    ["Bubblegum Bonbons", "08 JUN 24"],
+    ["Candy Necklaces", "04 OCT 24", "28 OCT 24"],
+    ["Catherine Wheels", "28 NOV 25", "28 SEP 24", "28 FEB 24"],
+    ["Clotted Cream Fudge", "10 FEB 24", "27 APR 24"],
 ];
 
 const shelf_A3 = [
-    ["Dolly Mixture", "28 SEP 22", "28 OCT 22", "28 DEC 22", "28 FEB 23"],
-    ["Fizzy Cola Bottles", "28 MAY 23", "28 JUL 23"],
-    ["Fizzy Dummies", "28 APR 23", "28 MAY 23"],
-    ["Fizzy Strawberries", "28 MAR 23", "28 JUN 23", "28 JUL 23"],
+    ["Dolly Mixture", "28 SEP 25", "28 OCT 25", "28 DEC 25", "28 FEB 24"],
+    ["Fizzy Cola Bottles", "28 MAY 24", "28 JUL 24"],
+    ["Fizzy Dummies", "28 APR 24", "28 MAY 24"],
+    ["Fizzy Strawberries", "06 JUN 24", "07 JUN 24", "28 JUL 24"],
 ];
 
 const shelf_B1 = [
-    ["Fried Eggs", "28 FEB 23", "28 SEP 23", "28 MAY 24"],
-    ["Fruity Fangs", "28 MAR 23", "28 MAY 23"],
-    ["Fruit Pips", "28 SEP 22", "28 JAN 24"],
-    ["Fruit Pastilles", "28 OCT 22", "28 NOV 22", "28 DEC 22", "25 FEB 23"],
-    ["Fruity Meerkats", "28 MAR 23", "28 MAY 23", "28 AUG 23"],
+    ["Fried Eggs", "28 FEB 24", "28 SEP 24", "28 MAY 24"],
+    ["Fruity Fangs", "28 MAR 24", "28 MAY 24"],
+    ["Fruit Pips", "28 SEP 25", "28 JAN 24"],
+    ["Fruit Pastilles", "28 OCT 25", "28 NOV 25", "28 DEC 25", "25 FEB 24"],
+    ["Fruity Meerkats", "28 MAR 24", "28 MAY 24", "28 AUG 24"],
 ];
 
 const shelf_B2 = [
-    ["Giant Strawberries", "28 MAR 23", "28 JUL 23", "28 AUG 23", "28 SEP 23"],
-    ["Gummy Bears", "28 MAR 23", "28 JUN 23", "28 MAY 23"],
-    ["Jazzies", "28 FEB 23", "28 MAY 23"],
-    ["Jelly Babies (Dusted)", "28 DEC 23"],
+    ["Giant Strawberries", "28 MAR 24", "28 JUL 24", "28 AUG 24", "28 SEP 24"],
+    ["Gummy Bears", "28 MAR 24", "28 JUN 24", "28 MAY 24"],
+    ["Jazzies", "28 FEB 24", "28 MAY 24"],
+    ["Jelly Babies (Dusted)", "28 DEC 24"],
     ["Jelly Beans", "20 FEB 24"],
-    ["Jelly Buttons", "28 OCT 22", "28 FEB 23"],
+    ["Jelly Buttons", "28 OCT 25", "28 FEB 24"],
 ];
 
 const shelf_B3 = [
-    ["Jelly Rings", "28 JUL 23", "28 APR 23", "28 MAY 23"],
+    ["Jelly Rings", "28 JUL 24", "28 APR 24", "28 MAY 24"],
     ["Kola Cubes", "02 FEB 24", "10 MAR 24", "25 MAY 24"],
-    ["Lemon Bonbons", "17 AUG 22", "20 APR 23", "04 MAY 23", "28 JAN 24"],
-    ["Liquorice Comfits", "28 APR 23"],
-    ["Liquorice Cream Rock", "01 JUN 23"],
-    ["Liquorice Allsorts", "28 OCT 22", "28 FEB 23"],
+    ["Lemon Bonbons", "17 AUG 25", "20 APR 24", "04 MAY 24", "28 JAN 24"],
+    ["Liquorice Comfits", "28 APR 24"],
+    ["Liquorice Cream Rock", "01 JUN 24"],
+    ["Liquorice Allsorts", "28 OCT 25", "28 FEB 24"],
 ];
 
 const shelf_C1 = [
-    ["Love Hearts", "28 SEP 22", "31 MAR 23", "31 JUL 23"],
-    ["Luxury Fruit Jellies", "28 SEP 22", "28 OCT 22", "28 MAR 23"],
-    ["Luxury Fruit Chews", "28 OCT 23", "28 JAN 24"],
-    ["Milk Bottles", "20 FEB 23"],
-    ["Snowies", "28 FEB 23", "28 MAY 23"],
-    ["Strawberry Bonbons", "25 MAY 23", "28 DEC 23"],
-    ["Mini Eggs", "07 OCT 23", "20 OCT 23"],
+    ["Love Hearts", "28 SEP 25", "31 MAR 24", "31 JUL 24"],
+    ["Luxury Fruit Jellies", "28 SEP 25", "28 OCT 25", "28 MAR 24"],
+    ["Luxury Fruit Chews", "28 OCT 24", "28 JAN 24"],
+    ["Milk Bottles", "20 FEB 24"],
+    ["Snowies", "28 FEB 24", "28 MAY 24"],
+    ["Strawberry Bonbons", "25 MAY 24", "28 DEC 24"],
+    ["Mini Eggs", "07 OCT 24", "20 OCT 24"],
 ];
 
 const shelf_C2 = [
-    ["Mint Imperials", "22 JAN 23", "28 MAR 23"],
-    ["Pineapple Chunks", "20 APR 23", "07 MAR 24", "06 APR 24"],
-    ["Pear Drops", "22 MAR 23", "28 APR 24", "29 JUN 24"],
-    ["Rum & Raisin Fudge", "20 FEB 23", "01 OCT 23"],
-    ["Sherbet Lemon", "20 FEB 23", "28 MAY 23"],
-    ["Sherbet Strawberries", "28 NOV 22", "22 FEB 23"],
+    ["Mint Imperials", "25 JAN 24", "28 MAR 24"],
+    ["Pineapple Chunks", "20 APR 24", "07 MAR 24", "06 APR 24"],
+    ["Pear Drops", "25 MAR 24", "28 APR 24", "29 JUN 24"],
+    ["Rum & Raisin Fudge", "20 FEB 24", "01 OCT 24"],
+    ["Sherbet Lemon", "20 FEB 24", "28 MAY 24"],
+    ["Sherbet Strawberries", "28 NOV 25", "25 FEB 24"],
 ];
 
 const shelf_C3 = [
-    ["Snowies", "28 FEB 23", "28 MAY 23"],
-    ["Strawberry Bonbons", "25 MAY 23", "28 DEC 23"],
+    ["Snowies", "28 FEB 24", "28 MAY 24"],
+    ["Strawberry Bonbons", "25 MAY 24", "28 DEC 24"],
 
-    ["Toffee Bonbons", "19 AUG 22", "10 JAN 23", "21 APR 23", "28 NOV 24"],
-    ["Yoghurt Coated Raisins", "28 MAR 23"],
-    ["Wine Gums", "28 AUG 22", "28 APR 23"],
-    ["Wiggly Worms", "28 MAR 23", "28 APR 23", "28 MAY 23"],
+    ["Toffee Bonbons", "19 AUG 25", "10 JAN 24", "21 APR 24", "28 NOV 24"],
+    ["Yoghurt Coated Raisins", "28 MAR 24"],
+    ["Wine Gums", "28 AUG 25", "28 APR 24"],
+    ["Wiggly Worms", "28 MAR 24", "28 APR 24", "28 MAY 24"],
 ];
 
 const shelf_D1 = [
-    ["ABC's", "19 FEB 23", "30 SEP 23"],
-    ["American Hard Gums", "20 FEB 23", "28 OCT 23", "28 FEB 24"],
-    ["Aniseed Balls", "07 DEC 23", "17 MAY 24", "23 AUG 24", "06 DEC 24"],
-    ["Black Jacks & Fruit Salad", "28 SEP 22", "28 FEB 23"],
-    ["Beer Bottles", "28 MAR 23", "28 JUN 23"],
-    ["Bubblegum Bottles", "28 MAY 23", "28 JUL 23"],
+    ["ABC's", "19 FEB 24", "30 SEP 24"],
+    ["American Hard Gums", "20 FEB 24", "28 OCT 24", "28 FEB 24"],
+    ["Aniseed Balls", "07 DEC 24", "17 MAY 24", "24 AUG 24", "06 DEC 24"],
+    ["Black Jacks & Fruit Salad", "28 SEP 25", "28 FEB 24"],
+    ["Beer Bottles", "28 MAR 24", "28 JUN 24"],
+    ["Bubblegum Bottles", "28 MAY 24", "28 JUL 24"],
 ];
 
 const shelf_D2 = [
-    ["Bubblegum Bonbons", "28 DEC 23"],
-    ["Candy Necklaces", "04 OCT 23", "28 OCT 23"],
-    ["Catherine Wheels", "28 NOV 22", "28 SEP 23", "28 FEB 24"],
-    ["Clotted Cream Fudge", "10 FEB 23", "27 APR 23"],
+    ["Bubblegum Bonbons", "28 DEC 24"],
+    ["Candy Necklaces", "04 OCT 24", "28 OCT 24"],
+    ["Catherine Wheels", "28 NOV 25", "28 SEP 24", "28 FEB 24"],
+    ["Clotted Cream Fudge", "10 FEB 24", "27 APR 24"],
 ];
 
 const shelf_D3 = [
-    ["Dolly Mixture", "28 SEP 22", "28 OCT 22", "28 DEC 22", "28 FEB 23"],
-    ["Fizzy Cola Bottles", "28 MAY 23", "28 JUL 23"],
-    ["Fizzy Dummies", "28 APR 23", "28 MAY 23"],
-    ["Fizzy Fun Mix", "28 JUN 23"],
-    ["Fizzy Strawberries", "28 MAR 23", "28 JUN 23", "28 JUL 23"],
+    ["Dolly Mixture", "28 SEP 25", "28 OCT 25", "28 DEC 25", "28 FEB 24"],
+    ["Fizzy Cola Bottles", "28 MAY 24", "28 JUL 24"],
+    ["Fizzy Dummies", "28 APR 24", "28 MAY 24"],
+    ["Fizzy Fun Mix", "28 JUN 24"],
+    ["Fizzy Strawberries", "28 MAR 24", "28 JUN 24", "28 JUL 24"],
 ];
 
 const shelf_E1 = [
-    ["Fried Eggs", "28 FEB 23"],
-    ["Fruity Fangs", "28 MAR 23", "28 MAY 23"],
-    ["Fruit Pips", "28 SEP 22", "28 JAN 24"],
-    ["Fruit Pastilles", "28 OCT 22", "28 NOV 22", "28 DEC 22", "25 FEB 23"],
-    ["Fruity Meerkats", "28 MAR 23", "28 MAY 23", "28 AUG 23"],
-    ["Fudge Duo", "20 MAY 23"],
+    ["Fried Eggs", "28 FEB 24"],
+    ["Fruity Fangs", "28 MAR 24", "28 MAY 24"],
+    ["Fruit Pips", "28 SEP 25", "28 JAN 24"],
+    ["Fruit Pastilles", "28 OCT 25", "28 NOV 25", "28 DEC 25", "25 FEB 24"],
+    ["Fruity Meerkats", "28 MAR 24", "28 MAY 24", "28 AUG 24"],
+    ["Fudge Duo", "20 MAY 24"],
 ];
 
 const shelf_E2 = [
-    ["Giant Strawberries", "28 MAR 23", "28 JUL 23", "28 AUG 23", "28 SEP 23"],
-    ["Gummy Bears", "28 MAR 23", "28 JUN 23", "28 MAY 23"],
-    ["Jazzies", "28 FEB 23", "28 MAY 23"],
-    ["Jelly Babies (Dusted)", "28 DEC 23"],
+    ["Giant Strawberries", "28 MAR 24", "28 JUL 24", "28 AUG 24", "28 SEP 24"],
+    ["Gummy Bears", "28 MAR 24", "28 JUN 24", "28 MAY 24"],
+    ["Jazzies", "28 FEB 24", "28 MAY 24"],
+    ["Jelly Babies (Dusted)", "28 DEC 24"],
     ["Jelly Beans", "20 FEB 24"],
-    ["Jelly Buttons", "28 OCT 22", "28 FEB 23"],
+    ["Jelly Buttons", "28 OCT 25", "28 FEB 24"],
 ];
 
 const shelf_E3 = [
-    ["Jelly Rings", "28 JUL 23", "28 APR 23", "28 MAY 23"],
+    ["Jelly Rings", "28 JUL 24", "28 APR 24", "28 MAY 24"],
     ["Kola Cubes", "02 FEB 24", "10 MAR 24", "25 MAY 24"],
-    ["Lemon Bonbons", "17 AUG 22", "20 APR 23", "04 MAY 23", "28 JAN 24"],
-    ["Liquorice Comfits", "28 APR 23"],
-    ["Liquorice Cream Rock", "01 JUN 23"],
-    ["Liquorice Allsorts", "28 OCT 22", "28 FEB 23"],
+    ["Lemon Bonbons", "17 AUG 25", "20 APR 24", "04 MAY 24", "28 JAN 24"],
+    ["Liquorice Comfits", "28 APR 24"],
+    ["Liquorice Cream Rock", "01 JUN 24"],
+    ["Liquorice Allsorts", "28 OCT 25", "28 FEB 24"],
 ];
 
 const shelf_F1 = [
-    ["Love Hearts", "28 SEP 22", "31 MAR 23", "31 JUL 23"],
-    ["Luxury Fruit Jellies", "28 SEP 22", "28 OCT 22", "28 MAR 23"],
-    ["Luxury Fruit Chews", "28 OCT 23", "28 JAN 24"],
-    ["Milk Bottles", "20 FEB 23"],
-    ["Milk Choc Raisins", "28 FEB 23"],
-    ["Mini Eggs", "07 OCT 23", "20 OCT 23"],
+    ["Love Hearts", "28 SEP 25", "31 MAR 24", "31 JUL 24"],
+    ["Luxury Fruit Jellies", "28 SEP 25", "28 OCT 25", "28 MAR 24"],
+    ["Luxury Fruit Chews", "28 OCT 24", "28 JAN 24"],
+    ["Milk Bottles", "20 FEB 24"],
+    ["Milk Choc Raisins", "28 FEB 24"],
+    ["Mini Eggs", "07 OCT 24", "20 OCT 24"],
 ];
 
 const shelf_F2 = [
-    ["Mint Imperials", "22 JAN 23", "28 MAR 23"],
-    ["Pineapple Chunks", "20 APR 23", "07 MAR 24", "06 APR 24"],
-    ["Pear Drops", "22 MAR 23", "28 APR 24", "29 JUN 24"],
-    ["Rosie Apples", "22 FEB 24", "28 APR 24"],
-    ["Sherbet Lemon", "20 FEB 23", "28 MAY 23"],
-    ["Sherbet Strawberries", "28 NOV 22", "22 FEB 23"],
+    ["Mint Imperials", "25 JAN 24", "28 MAR 24"],
+    ["Pineapple Chunks", "20 APR 24", "07 MAR 24", "06 APR 24"],
+    ["Pear Drops", "25 MAR 24", "28 APR 24", "29 JUN 24"],
+    ["Rosie Apples", "25 FEB 24", "28 APR 24"],
+    ["Sherbet Lemon", "20 FEB 24", "28 MAY 24"],
+    ["Sherbet Strawberries", "28 NOV 25", "25 FEB 24"],
 ];
 
 const shelf_F3 = [
-    ["Strawberry Bonbons", "25 MAY 23", "28 DEC 23"],
-    ["Milkshake Bottles", "28 SEP 22", "28 MAY 23", "28 JUN 23"],
-    ["Trad Mint Humbugs", "28 APR 23"],
-    ["Toffee Bonbons", "19 AUG 22", "08 JAN 23", "21 APR 23", "28 NOV 24"],
-    ["Random Retros", "30 APR 23", "31 MAY 23"],
+    ["Strawberry Bonbons", "25 MAY 24", "28 DEC 24"],
+    ["Milkshake Bottles", "28 SEP 25", "28 MAY 24", "28 JUN 24"],
+    ["Trad Mint Humbugs", "28 APR 24"],
+    ["Toffee Bonbons", "19 AUG 25", "08 JAN 24", "21 APR 24", "28 NOV 24"],
+    ["Random Retros", "30 APR 24", "31 MAY 24"],
     ["Yorkshire Mix", "10 APR 24"],
 ];
 
@@ -775,7 +775,7 @@ function toggleItem() {
     }
 }
 
-const header = document.querySelector(".headeropen")
+const header = document.querySelector(".header")
 const howto = document.querySelector(".howto")
 const button0 = document.querySelector(".button0")
 
@@ -784,13 +784,11 @@ button0.addEventListener("click", toggleMenu);
 function toggleMenu() {
     if(button0.className == "button0"){
     button0.classList.toggle("active");
-    howto.style.display = "none";
-    header.className = "headerclose"
+    header.className = "header min"
 }
     else{
         button0.classList.remove("active");
-        howto.style.display = "block";
-        header.className = "headeropen"
+        header.className = "header max"
     }
 }
 
@@ -830,8 +828,8 @@ if (viewportWidth <= 844){
     howto.src = "/images/howto_m.gif";
     howto.className = "howtoM";
 
-    if (header.className == "headerclose"){
-        header.className = "headeropen"
+    if (header.className == "header min"){
+        header.className = "header max"
         howto.style.display = "block";
         button0.classList.remove("active");
     }
