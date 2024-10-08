@@ -58,6 +58,8 @@ p {
 
 .howto{
     margin: 200px 50px 0px 50px;
+    border: #000000 2px solid;
+    border-radius: 10px;
 }
 
 .howtoM{

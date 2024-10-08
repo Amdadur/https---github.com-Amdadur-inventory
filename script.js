@@ -1,12 +1,12 @@
 //DATA
 //declare shelves, items and expiration dates
 const shelf_A1 = [
-    ["Fudge Duo", "20 MAY 24", "18 JUL 24"],
-    ["American Hard Gums", "20 FEB 24", "20 OCT 24", "28 FEB 24"],
-    ["Aniseed Balls", "25 JAN 24", "07 DEC 24", "17 MAY 24", "24 AUG 24", "06 DEC 24"],
+    ["Fudge Duo", "20 MAY 25", "18 OCT 24"],
+    ["American Hard Gums", "20 FEB 25", "10 OCT 24", "28 FEB 24"],
+    ["Aniseed Balls", "25 JAN 25", "07 DEC 24", "17 MAY 24", "24 AUG 24", "06 DEC 24"],
     ["Black Jacks & Fruit Salad", "28 SEP 25", "28 FEB 24"],
-    ["Beer Bottles", "28 MAR 24", "28 JUN 24"],
-    ["Bubblegum Bottles", "28 MAY 24", "28 JUL 24"],
+    ["Beer Bottles", "28 MAR 24", "28 NOV 24"],
+    ["Bubblegum Bottles", "28 MAY 25", "28 JUL 24"],
 ];
 
 const shelf_A2 = [
